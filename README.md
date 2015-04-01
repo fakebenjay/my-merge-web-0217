@@ -10,7 +10,7 @@ resources: 1
 
 You will be building out Ruby's `#merge` method. You'll be monkey patching the Array class to do this.
 
-## About Transpose
+## About Merge
 
 Ruby's `merge` method takes either one argument, a hash, and an optional a block. 
 
