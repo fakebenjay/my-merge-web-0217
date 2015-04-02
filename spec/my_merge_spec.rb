@@ -36,8 +36,8 @@ describe Hash do
       end
       context "duplicate keys" do
         it "prioritizes the values for the keys in the hash passed as an argument" do
-          expect(alphabet.merge(vowels)).to eq({"a"=>1, "b"=>"banana", "c"=>"carrot", "e"=>2, "i"=>3})
-          expect(vowels.merge(alphabet)).to eq({"a"=>"apple", "e"=>"egg", "i"=>3, "b"=>"banana", "c"=>"carrot"})
+          expect(alphabet.my_merge(vowels)).to eq({"a"=>1, "b"=>"banana", "c"=>"carrot", "e"=>2, "i"=>3})
+          expect(vowels.my_merge(alphabet)).to eq({"a"=>"apple", "e"=>"egg", "i"=>3, "b"=>"banana", "c"=>"carrot"})
         end
       end
     end
