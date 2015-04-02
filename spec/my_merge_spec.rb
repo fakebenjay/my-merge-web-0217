@@ -47,7 +47,7 @@ describe Hash do
         it "executes the block to determine each key, value pair" do
           h1 = { "a" => 1, "b" => 2 }
           h2 = { "c" => 3, "d" => 4 }
-          result = h1.merge(h2) { |key, oldval, newval| newval - oldval }
+          result = h1.my_merge(h2) { |key, oldval, newval| newval - oldval }
           expect(result.keys.length).to eq(4)
           expect(result).to eq({"a"=>1, "b"=>2, "c"=>3, "d"=>4})
         end
@@ -56,7 +56,7 @@ describe Hash do
         it "executes the block to determine each key, value pair" do
           h1 = { "a" => 100, "b" => 200 }
           h2 = { "b" => 254, "c" => 300 }
-          result = h1.merge(h2) { |key, oldval, newval| newval - oldval }
+          result = h1.my_merge(h2) { |key, oldval, newval| newval - oldval }
           expect(result.keys.length).to eq(3)
           expect(result).to eq({"a"=>100, "b"=>54, "c"=>300})
         end
