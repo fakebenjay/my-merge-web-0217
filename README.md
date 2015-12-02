@@ -54,3 +54,5 @@ You may not call on Ruby's `#merge` method to accomplish this task. Do not chang
 ## Resources
 
 * [Ruby's Merge Method](http://ruby-doc.org/core-2.1.5/Hash.html#method-i-merge)
+
+<a href='https://learn.co/lessons/my-merge' data-visibility='hidden'>View this lesson on Learn.co</a>
