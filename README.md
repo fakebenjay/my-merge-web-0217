@@ -55,4 +55,4 @@ You may not call on Ruby's `#merge` method to accomplish this task. Do not chang
 
 * [Ruby's Merge Method](http://ruby-doc.org/core-2.1.5/Hash.html#method-i-merge)
 
-<a href='https://learn.co/lessons/my-merge' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/my-merge' title='My Merge'>My Merge</a> on Learn.co and start learning to code for free.</p>
