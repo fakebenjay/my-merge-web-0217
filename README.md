@@ -8,13 +8,13 @@ resources: 1
 
 ## Objective
 
-You will be building out Ruby's `#merge` method. You'll be monkey patching the Array class to do this.
+You will be building out Ruby's `#merge` method. You'll be monkey patching the Hash class to do this.
 
 ## About Merge
 
-Ruby's `merge` method takes either one argument, a hash, and an optional a block. 
+Ruby's `merge` method takes either one argument, a hash, and an optional a block.
 
-It returns a new hash containing the contents of both the hash it is called on and the hash it is passed as an argument. 
+It returns a new hash containing the contents of both the hash it is called on and the hash it is passed as an argument.
 
 If it's not passed a block and there are duplicate keys, the values for the keys in the hash passed as an argument are prioritized.
 
